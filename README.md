@@ -36,7 +36,7 @@ Worked on a simulation demonstrating the critical role of data science in Britis
   -	Statistical Summaries: mean, median, variance, and standard deviation
   -	Distribution Plots: pie plots, bar plots, line plots
 3. **Machine Learning Models**
-  - NLP: word cloud analysis, sentiment analysis
+  - NLP: word cloud analysis, Valence Aware Dictionary and sEntiment Reasoner aka VADER sentiment analysis
   -	Classifier Algorithms: Random Forest
   -	Model Evaluation: accuracy score, classification report, confusion matrix
   -	Predictive Modeling: Random Forest
