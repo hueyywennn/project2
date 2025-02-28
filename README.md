@@ -27,27 +27,29 @@ Worked on a simulation demonstrating the critical role of data science in Britis
 | `Arrivals`              | Arrival airport or city                                                        |
 | `Layover`               | Indicates if there was a layover and its details (if applicable)                |
 
-### Features
-1. **Data Cleaning**
-  -	Feature cleaning: remove symbols in the review column
-  -	Handle missing values: delete the entire row if all is empty
-  -	Data Normalization: normalize texts in departures, arrivals, and layovers columns using airport IATA codes
-2. **Exploratory Data Analysis (EDA)**
-  -	Statistical Summaries: mean, median, variance, and standard deviation
-  -	Distribution Plots: pie plots, bar plots, line plots
-3. **Machine Learning Models**
-  - NLP: word cloud analysis, Valence Aware Dictionary and sEntiment Reasoner aka VADER sentiment analysis
-  -	Classifier Algorithms: Random Forest
-  -	Model Evaluation: accuracy score, classification report, confusion matrix
-  -	Predictive Modeling: Random Forest
-  -	Model Interpretation: Feature Importance, Permutation Importance
-4. **Interactive Visualizations**
-  -	null
+## Project Objectives
+1. **Data Cleaning & Preprocessing**: Handling missing values, normalizing text, and feature cleaning.
+2. **Exploratory Data Analysis (EDA)**: Understanding distribution patterns, trends, and relationships.
+3. **Natural Language Processing (NLP)**: Sentiment analysis using VADER and word cloud analysis.
+4. **Predictive Modeling**: Implementing classification models to predict customer recommendations.
+5. **Model Evaluation & Interpretation**: Assessing model accuracy and analyzing feature importance.
 
-## Tools used
-1. **Programming Language** 
-  - Python
-2. **Libraries**
-  - pandas, numpy, scikit-learn, matplotlib, regex
-3. **Visualization Tools**
-  - plotly, seaborn
+## Machine Learning Models Used
+- **Natural Language Processing (NLP)**: VADER sentiment analysis, word cloud visualization.
+- **Random Forest Classifier**: Used for predicting customer recommendations.
+- **Feature Importance Analysis**: Identifying key factors that influence customer recommendations.
+- **Evaluation Metrics**: Accuracy score, confusion matrix, classification report.
+
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**: pandas, numpy, scikit-learn, regex, matplotlib
+- **Visualization Tools**: plotly, seaborn
+
+## Project Workflow
+1. **Data Collection**: Gather customer reviews and flight booking data.
+2. **Data Cleaning**: Process missing values, normalize text data, and clean categorical fields.
+3. **Exploratory Data Analysis**: Generate summary statistics, visualizations, and sentiment insights.
+4. **Feature Engineering**: Extract relevant attributes for better prediction accuracy.
+5. **Model Training**: Train a Random Forest Classifier for recommendation prediction.
+6. **Model Evaluation**: Analyze accuracy scores, classification reports, and confusion matrices.
+7. **Results Interpretation**: Identify key insights from feature importance and sentiment analysis.
